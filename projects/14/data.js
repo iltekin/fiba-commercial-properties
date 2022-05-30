@@ -1,4 +1,4 @@
-const baslik = "SELECT REZİDANS";
+const baslik = "SELECT REZİDANS, BÜKREŞ, ROMANYA";
 
 const renovasyon = false;
 

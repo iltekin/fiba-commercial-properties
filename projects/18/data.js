@@ -1,4 +1,4 @@
-const baslik = "ANCHOR PLAZA OFİS";
+const baslik = "ANCHOR PLAZA OFİS, BÜKREŞ, ROMANYA";
 
 const renovasyon = false;
 

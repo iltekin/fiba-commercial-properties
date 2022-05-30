@@ -1,4 +1,4 @@
-const baslik = "SİNEPARK SİNEMA, GAZİANTEP";
+const baslik = "SİNEPARK, GAZİANTEP";
 
 const renovasyon = true;
 
