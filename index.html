@@ -1,4 +1,8 @@
-<!-- IltekinBrainworks 2022 / Sezer Iltekin -->
+<!--
+brainworks yazılım 2023
+Sezer Iltekin
+sezer@iltekin.com
+-->
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -16,31 +20,19 @@
 </head>
 <body>
 
-<div id="play-video" class="play-buton">
-  <div class="w-100 text-center fiba-mavi">VİDEO</div>
-  <i class="fa fa-play"></i>
-</div>
+<style>
+  body {
+    padding-bottom: 0;
+  }
+</style>
 
-<div id="video">
+<div class="container main-container">
 
-  <div class="backward-video">
-    <i class="fa fa-backward-fast"></i>
-  </div>
-
-  <video id="video-player" loop>
-    <source src="video.mp4" type="video/mp4">
-  </video>
-
-</div>
-
-
-<div class="container-fluid">
-
-  <div id="filters" class="row p-5">
+  <div id="filters" class="row p-3 p-md-5">
     <div class="col-12">
 
-      <div class="wrapper">
-        <div class="select_wrap">
+      <div class="wrapper d-flex flex-column flex-md-row">
+        <div class="select_wrap" style="z-index: 3">
           <ul class="default_option">
             <li>
               <div class="option">
@@ -84,7 +76,7 @@
         </div>
 
 
-        <div class="select_wrap">
+        <div class="select_wrap" style="z-index: 2">
           <ul class="default_option">
             <li>
               <div class="option">
@@ -134,7 +126,7 @@
         </div>
 
 
-        <div class="select_wrap soldur">
+        <div class="select_wrap soldur" style="z-index: 1">
           <ul class="check_option">
             <li>
               <div class="option">
@@ -154,287 +146,286 @@
     </div>
   </div>
 
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <div class="scrollable">
-        <div id="projects" class="row mb-5">
+  <div id="projects" class="row mb-5">
 
-          <div class="col-3 clone" data-kategori="avm" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/1/index.html">
-              <div class="project" id="project1">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">BUCURESTI MALL</h5>
-                </div>
-              </div>
-            </a>
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 clone" data-kategori="avm" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/1/index.html">
+        <div class="project" id="project1">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">BUCURESTI MALL</h5>
           </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="moldova" data-gelecek="hayir">
-            <a href="projects/2/index.html">
-              <div class="project" id="project2">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">SHOPPING MALLDOVA</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/3/index.html">
-              <div class="project" id="project3">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">PLAZA ROMANIA</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="cin" data-gelecek="hayir">
-            <a href="projects/4/index.html">
-              <div class="project" id="project4">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">STARMALL</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/5/index.html">
-              <div class="project" id="project5">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">M1 GAZİANTEP AVM</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/6/index.html">
-              <div class="project" id="project6">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">M1 KONYA AVM</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/7/index.html">
-              <div class="project" id="project7">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">GEBZE CENTER</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/8/index.html">
-              <div class="project" id="project8">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">İNEGÖL AVM</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/9/index.html">
-              <div class="project" id="project9">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">M1 ADANA AVM</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/10/index.html">
-              <div class="project" id="project10">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">DOWNTOWN BURSA</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="evet">
-            <a href="projects/11/index.html">
-              <div class="project" id="project11">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">SKYTOWER BURSA</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="evet">
-            <a href="projects/12/index.html">
-              <div class="project" id="project12">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">FENIX CENTER</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/13/index.html">
-              <div class="project" id="project13">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">INCITY REZİDANS</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/14/index.html">
-              <div class="project" id="project14">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">SELECT REZİDANS</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="evet">
-              <div class="project" id="project15">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">DRUMUL TABEREİ REZİDANS</h5>
-                </div>
-              </div>
-          </div>
-
-          <div class="col-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/16/index.html">
-              <div class="project" id="project16">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">PALLADY TOWER REZİDANS</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="ofis" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/17/index.html">
-              <div class="project" id="project17">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">OFİSHANE</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="ofis" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/18/index.html">
-              <div class="project" id="project18">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">ANCHOR PLAZA OFİS</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="ofis" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/19/index.html">
-              <div class="project" id="project19">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">PLAZA ROMANIA OFİS</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="ofis" data-ulke="romanya" data-gelecek="evet">
-              <div class="project" id="project20">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">METROPOL PLAZA OFİS</h5>
-                </div>
-              </div>
-          </div>
-
-          <div class="col-3" data-kategori="ofis" data-ulke="moldova" data-gelecek="hayir">
-            <a href="projects/21/index.html">
-              <div class="project" id="project21">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">MALLDOVA CENTER OFİS</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="otel" data-ulke="moldova" data-gelecek="hayir">
-            <a href="projects/22/index.html">
-              <div class="project" id="project22">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">COURTYARD BY MARRIOTT</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="sinema" data-ulke="turkiye" data-gelecek="hayir">
-            <a href="projects/23/index.html">
-              <div class="project" id="project23">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">SİNEPARK GAZİANTEP</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="sinema" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/24/index.html">
-              <div class="project" id="project24">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">MOVIEPLEX SİNEMA ROMANYA</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-3" data-kategori="sinema" data-ulke="romanya" data-gelecek="hayir">
-            <a href="projects/25/index.html">
-              <div class="project" id="project25">
-                <div class="project-overlay">
-                  <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
-                  <h5 class="project-title">HOLLYWOOD MULTIPLEX ROMANYA</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
         </div>
+      </a>
+    </div>
 
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="moldova" data-gelecek="hayir">
+      <a href="projects/2/index.html">
+        <div class="project" id="project2">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">SHOPPING MALLDOVA</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/3/index.html">
+        <div class="project" id="project3">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">PLAZA ROMANIA</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="cin" data-gelecek="hayir">
+      <a href="projects/4/index.html">
+        <div class="project" id="project4">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">STARMALL</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/5/index.html">
+        <div class="project" id="project5">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">M1 GAZİANTEP AVM</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/6/index.html">
+        <div class="project" id="project6">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">M1 KONYA AVM</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/7/index.html">
+        <div class="project" id="project7">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">GEBZE CENTER</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/8/index.html">
+        <div class="project" id="project8">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">İNEGÖL AVM</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/9/index.html">
+        <div class="project" id="project9">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">M1 ADANA AVM</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/10/index.html">
+        <div class="project" id="project10">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">DOWNTOWN BURSA</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="evet">
+      <a href="projects/11/index.html">
+        <div class="project" id="project11">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">SKYTOWER BURSA</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="avm" data-ulke="turkiye" data-gelecek="evet">
+      <a href="projects/12/index.html">
+        <div class="project" id="project12">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">FENIX CENTER</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/13/index.html">
+        <div class="project" id="project13">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">INCITY REZİDANS</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/14/index.html">
+        <div class="project" id="project14">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">SELECT REZİDANS</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="evet">
+      <div class="project" id="project15">
+        <div class="project-overlay">
+          <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+          <h5 class="project-title">DRUMUL TABEREİ REZİDANS</h5>
+        </div>
       </div>
     </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="rezidans" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/16/index.html">
+        <div class="project" id="project16">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">PALLADY TOWER REZİDANS</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="ofis" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/17/index.html">
+        <div class="project" id="project17">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">OFİSHANE</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="ofis" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/18/index.html">
+        <div class="project" id="project18">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">ANCHOR PLAZA OFİS</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="ofis" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/19/index.html">
+        <div class="project" id="project19">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">PLAZA ROMANIA OFİS</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="ofis" data-ulke="romanya" data-gelecek="evet">
+      <div class="project" id="project20">
+        <div class="project-overlay">
+          <h5 class="project-top-left-info"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+          <h5 class="project-title">METROPOL PLAZA OFİS</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="ofis" data-ulke="moldova" data-gelecek="hayir">
+      <a href="projects/21/index.html">
+        <div class="project" id="project21">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">MALLDOVA CENTER OFİS</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="otel" data-ulke="moldova" data-gelecek="hayir">
+      <a href="projects/22/index.html">
+        <div class="project" id="project22">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">COURTYARD BY MARRIOTT</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="sinema" data-ulke="turkiye" data-gelecek="hayir">
+      <a href="projects/23/index.html">
+        <div class="project" id="project23">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">SİNEPARK GAZİANTEP</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="sinema" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/24/index.html">
+        <div class="project" id="project24">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">MOVIEPLEX SİNEMA ROMANYA</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="sinema" data-ulke="romanya" data-gelecek="hayir">
+      <a href="projects/25/index.html">
+        <div class="project" id="project25">
+          <div class="project-overlay">
+            <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+            <h5 class="project-title">HOLLYWOOD MULTIPLEX ROMANYA</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
   </div>
+</div>
+
+<div id="footer">
+  <a href="https://brainworks.dev" target="_blank">
+    <img src="img/brainworks.svg" alt="iltekin brainworks">
+  </a>
 </div>
 
 

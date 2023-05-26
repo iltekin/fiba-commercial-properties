@@ -1,12 +1,12 @@
-var ulke = "hepsi";
-var kategori = "hepsi";
-var gelecek = "kapali";
+var ulke = localStorage.getItem("ulke") || "hepsi";
+var kategori = localStorage.getItem("kategori") || "hepsi";
+var gelecek = localStorage.getItem("gelecek") || "kapali";
 
 function guncelle() {
-    $("#projects .col-3").fadeOut(300);
-    $("#projects .col-3").promise().done(function () {
+    $("#projects .col-12").fadeOut(300);
+    $("#projects .col-12").promise().done(function () {
 
-        $("#projects .col-3").each(function () {
+        $("#projects .col-12").each(function () {
 
             var thisKategori = $(this).data("kategori");
             var thisUlke = $(this).data("ulke");
@@ -29,8 +29,10 @@ $(".check_option").click(function(){
 
     if(gelecek === 'acik'){
         gelecek = 'kapali';
+        localStorage.setItem("gelecek", "kapali");
     }else{
         gelecek = 'acik';
+        localStorage.setItem("gelecek", "acik");
     }
 
     guncelle();
@@ -41,6 +43,7 @@ $(".check_option").click(function(){
 $(".ulkeSec li").click(function(){
 
     ulke = $(this).data("ulke");
+    localStorage.setItem("ulke", ulke);
     guncelle();
 
     var cur = $(this).find("div p").html();
@@ -51,6 +54,7 @@ $(".ulkeSec li").click(function(){
 $(".kategoriSec li").click(function(){
 
     kategori = $(this).data("kategori");
+    localStorage.setItem("kategori", kategori);
     guncelle();
 
     var cur = $(this).find("div p").html();
@@ -58,52 +62,33 @@ $(".kategoriSec li").click(function(){
     $(this).parents(".select_wrap").removeClass("active");
 });
 
-$("#play-video").click(function(){
-    openFullscreen();
-});
+// onload
+$(function () {
+    guncelle();
+    const ulke = localStorage.getItem("ulke") || "hepsi";
+    const kategori = localStorage.getItem("kategori") || "hepsi";
+    const gelecek = localStorage.getItem("gelecek") || "kapali";
 
-$("#video").click(function(){
-    closeFullscreen();
-});
-
-$(".backward-video").click(function(e){
-    e.stopPropagation();
-    e.preventDefault();
-    backward();
-});
-
-/* Get the documentElement (<html>) to display the page in fullscreen */
-var elem = document.documentElement;
-
-/* View in fullscreen */
-function openFullscreen() {
-
-    $("#video").show();
-    $("#video-player").trigger('play');
-
-    if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-    } else if (elem.webkitRequestFullscreen) { /* Safari */
-        elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { /* IE11 */
-        elem.msRequestFullscreen();
+    if(ulke !== "hepsi"){
+        $(".ulkeSec li").each(function(){
+            if($(this).data("ulke") === ulke){
+                var cur = $(this).find("div p").html();
+                $(this).parent().parent().find(".default_option li div p span").html(cur);
+            }
+        });
     }
-}
 
-/* Close fullscreen */
-function closeFullscreen() {
-    $("#video").hide();
-    $("#video-player").trigger('pause');
-
-    if (document.exitFullscreen) {
-        document.exitFullscreen();
-    } else if (document.webkitExitFullscreen) { /* Safari */
-        document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) { /* IE11 */
-        document.msExitFullscreen();
+    if(kategori !== "hepsi"){
+        $(".kategoriSec li").each(function(){
+            if($(this).data("kategori") === kategori){
+                var cur = $(this).find("div p").html();
+                $(this).parent().parent().find(".default_option li div p span").html(cur);
+            }
+        });
     }
-}
 
-function backward(){
-    $('#video-player').get(0).currentTime = 0;
-}
+    if(gelecek === "acik"){
+        $(".check_option").parent().toggleClass("active").toggleClass("soldur");
+    }
+
+});

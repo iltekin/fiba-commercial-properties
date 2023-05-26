@@ -7,7 +7,6 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,12 +14,12 @@ body {
   margin-bottom: 50px;
 }
 
-#projects .col-3 {
+#projects > div {
   margin-bottom: 30px;
 }
 
 #filters {
-  margin: 4vw 0;
+  margin: 4vw 0 1vw 0;
 }
 
 .project {
@@ -559,4 +558,111 @@ a.ev-buton:hover {
   left: 0;
   min-height: 64vh;
   transform: translateY(-50%);
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+#footer img {
+  height: 16px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    background-image: url("../img/background-mobile.jpg");
+    padding-bottom: 90px;
+  }
+
+  .main-container {
+    margin-top: 30vw;
+  }
+
+  .select_wrap {
+    margin: 5px 15px;
+    box-shadow: 1px 1px 5px 2px #e3e0e0;
+    border-radius: 10px;
+  }
+
+  #filters {
+    margin: 0;
+  }
+
+  .baslik > div:nth-child(1) {
+    font-size: 20px;
+    color: #19527c;
+    padding: 0 6px;
+  }
+
+  .baslik {
+    padding: 25vw 0 0 0;
+  }
+
+  .project-body-inner {
+    flex-direction: column-reverse;
+  }
+
+
+  .carousel-item {
+    height: auto;
+  }
+
+  .carousel-item img {
+    position: initial;
+    top: unset;
+    left: unset;
+    min-height: auto;
+    transform: none;
+  }
+
+  a.geri-buton {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: unset;
+    top: unset;
+    width: 100%;
+    border-radius: unset;
+    font-size: 20px;
+  }
+
+  a.ev-buton {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: unset;
+    top: unset;
+    width: 100%;
+    border-radius: unset;
+    font-size: 20px;
+  }
+
+  a.yarim {
+    width: 50%;
+  }
+
+  .bilgiler .row h1 {
+    font-size: 20px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    zoom: 0.5;
+  }
+
+  .bilgi-buton {
+    font-size: 15px;
+    margin: 0 5px;
+  }
+
+  .once-sonra-baslik {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
 }

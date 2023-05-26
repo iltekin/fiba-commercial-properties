@@ -1,4 +1,8 @@
-<!-- IltekinBrainworks 2022 / Sezer Iltekin -->
+<!--
+brainworks yazılım 2023
+Sezer Iltekin
+sezer@iltekin.com
+-->
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -34,9 +38,53 @@
     </div>
   </div>
 
-  <div class="row justify-content-center px-5">
+  <div class="row justify-content-between px-2 px-md-5 project-body-inner">
+    <div class="col-12 col-md-4 bilgiler my-auto">
 
-    <div class="col-8 p-5">
+      <div class="row">
+
+        <div class="col-6 bilgi">
+          <h1></h1>
+          <span></span>
+        </div>
+
+        <div class="col-6 bilgi">
+          <h1></h1>
+          <span></span>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-6 bilgi">
+          <h1></h1>
+          <span></span>
+        </div>
+
+        <div class="col-6 bilgi">
+          <h1></h1>
+          <span></span>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-6 bilgi">
+          <h1></h1>
+          <span></span>
+        </div>
+
+        <div class="col-6 bilgi">
+          <h1></h1>
+          <span></span>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-8 p-4 p-md-5">
       <div id="gallery" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target='#gallery' data-slide-to='1'></li>
@@ -70,6 +118,14 @@
 
 
   $( document ).ready(function() {
+
+    var count = 0;
+    $('.bilgi').each(function() {
+      var currentElement = $(this);
+      currentElement.find('h1').text(bilgiler[count][1]); // set the text
+      currentElement.find('span').text(bilgiler[count][0]); // set the text
+      count++;
+    });
 
 
     $("#proje-baslik").text(baslik);

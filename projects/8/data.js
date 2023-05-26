@@ -6,7 +6,7 @@ const katplani = true;
 
 const slideSayisi = 4;
 
-const plansayisi = 2;
+const plansayisi = 3;
 
 const bilgiler = [
     [
