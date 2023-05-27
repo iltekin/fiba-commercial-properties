@@ -62,8 +62,17 @@ $(".kategoriSec li").click(function(){
     $(this).parents(".select_wrap").removeClass("active");
 });
 
+function addBackgroundImages() {
+    const projects = document.querySelectorAll(".project");
+    projects.forEach((project) => {
+        const id = project.getAttribute("data-id");
+        project.style.backgroundImage = `url('../projects/${id}/img/kapak.jpg')`;
+    });
+}
+
 // onload
 $(function () {
+    addBackgroundImages();
     guncelle();
     const ulke = localStorage.getItem("ulke") || "hepsi";
     const kategori = localStorage.getItem("kategori") || "hepsi";
