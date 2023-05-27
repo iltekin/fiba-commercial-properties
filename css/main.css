@@ -16,6 +16,7 @@ body {
 
 #projects > div {
   margin-bottom: 30px;
+  display: none;
 }
 
 #filters {
