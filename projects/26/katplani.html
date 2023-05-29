@@ -1,0 +1,87 @@
+<!--
+brainworks yazılım 2023
+Sezer Iltekin
+sezer@iltekin.com
+-->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../../img/favicon.png">
+
+  <title>Fiba Commercial Projects</title>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../../assets/bootstrap-4.6.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets/fontawesome-6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="../../assets/lightgallery-2.0.0/css/lightgallery.min.css">
+  <link rel="stylesheet" href="../../assets/lightgallery-2.0.0/css/lg-transitions.min.css">
+  <link rel="stylesheet" href="../../css/main.css?v=2">
+  <script src="../../projects.js"></script>
+
+
+
+</head>
+<body>
+
+<a href="index.html" class="geri-buton yarim"><i class="fa fa-chevron-left mr-2"></i> GERİ</a>
+<a href="../../index.html" class="ev-buton yarim"><i class="fa fa-home mr-2"></i> ANA SAYFA</a>
+
+<div class="container-fluid">
+
+  <div class="row baslik">
+    <div class="col-12" id="proje-baslik">
+      PROJECT NAME
+    </div>
+    <div class="col-12 proje-butonlar">
+      <div class="bilgi-buton">KAT PLANI</div>
+    </div>
+  </div>
+
+  <div class="row justify-content-between p-3 px-md-5" id="katplani">
+
+  </div>
+
+</div>
+
+
+<!-- JS Files -->
+<script src="../../assets/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="../../assets/bootstrap-4.6.1/js/bootstrap.bundle.min.js"></script>
+<script src="../../assets/lightgallery-2.0.0/js/lightgallery.min.js"></script>
+<script src="../../assets/lightgallery-2.0.0/plugins/lg-zoom.min.js"></script>
+<script src="../../assets/lightgallery-2.0.0/plugins/lg-thumbnail.min.js"></script>
+
+<script>
+
+
+
+  $( document ).ready(function() {
+
+    $("#proje-baslik").text(baslik);
+
+    for(let i = 1; i <= plansayisi; i++){
+      $("#katplani").append(`
+        <div class="col-12 col-md-6 p-2 p-md-5">
+          <a data-src="katplani/${i}.jpg">
+            <div class="katplani-image" style="background-image: url('katplani/${i}.jpg')"></div>
+          </a>
+        </div>
+      `);
+    }
+
+    lightGallery(
+            document.getElementById("katplani"), {
+              selector: 'a',
+              download: false,
+              actualSize: false,
+              thumbnail: false,
+    });
+
+  });
+
+</script>
+
+</body>
+</html>
