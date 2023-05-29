@@ -108,7 +108,7 @@ const projects = {
         baslik: "İNEGÖL AVM, BURSA",
         renovasyon: true,
         katplani: true,
-        slideSayisi: 2,
+        slideSayisi: 3,
         plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2011"],
