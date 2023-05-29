@@ -108,7 +108,7 @@ const projects = {
         baslik: "İNEGÖL AVM, BURSA",
         renovasyon: true,
         katplani: true,
-        slideSayisi: 4,
+        slideSayisi: 2,
         plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2011"],
@@ -187,8 +187,8 @@ const projects = {
         plansayisi: 0,
         bilgiler: [
             ["Açılış Tarihi", "2018"],
-            ["Otopark Kapasitesi", "530"],
             ["Daire Sayısı", "502"],
+            ["Otopark Kapasitesi", "530"],
             ["", ""],
             ["", ""],
             ["", ""]
@@ -202,8 +202,8 @@ const projects = {
         plansayisi: 0,
         bilgiler: [
             ["Açılış Tarihi", "2022"],
-            ["Otopark Kapasitesi", "420"],
             ["Daire Sayısı", "350"],
+            ["Otopark Kapasitesi", "420"],
             ["", ""],
             ["", ""],
             ["", ""]
@@ -232,8 +232,8 @@ const projects = {
         plansayisi: 0,
         bilgiler: [
             ["Açılış Tarihi", "2020"],
-            ["Otopark Kapasitesi", "130"],
             ["Daire Sayısı", "204"],
+            ["Otopark Kapasitesi", "130"],
             ["", ""],
             ["", ""],
             ["", ""]
@@ -360,7 +360,7 @@ const projects = {
         ]
     },
     25: {
-        baslik: "xHOLLYWOOD MULTIPLEX SİNEMA, BÜKREŞ, ROMANYA",
+        baslik: "HOLLYWOOD MULTIPLEX SİNEMA, BÜKREŞ, ROMANYA",
         renovasyon: false,
         katplani: false,
         slideSayisi: 2,
@@ -369,6 +369,21 @@ const projects = {
             ["Açılış Tarihi", "2000"],
             ["Salon Sayısı", "10"],
             ["İzleyici Kapasitesi", "2.125"],
+            ["", ""],
+            ["", ""],
+            ["", ""]
+        ]
+    },
+    26: {
+        baslik: "BABYLON BURSA",
+        renovasyon: false,
+        katplani: false,
+        slideSayisi: 2,
+        plansayisi: 0,
+        bilgiler: [
+            ["", ""],
+            ["", ""],
+            ["", ""],
             ["", ""],
             ["", ""],
             ["", ""]
