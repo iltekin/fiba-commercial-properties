@@ -141,7 +141,7 @@ const projects = {
         slideSayisi: 1,
         plansayisi: 3,
         bilgiler: [
-            ["Açılış Tarihi", "2022"],
+            ["Açılış Tarihi", "2023"],
             ["Kiralanabilir Alan", "75.000 m²"],
             ["Mağaza Sayısı", "180"],
             ["Otopark Kapasitesi", "2.000"],
@@ -156,10 +156,10 @@ const projects = {
         slideSayisi: 2,
         plansayisi: 2,
         bilgiler: [
+            ["Açılış Tarihi", "2023"],
             ["Kiralanabilir Alan", "9.046 m²"],
             ["Mağaza Sayısı", "58"],
             ["Otopark Kapasitesi", "400"],
-            ["", ""],
             ["", ""],
             ["", ""]
         ]
