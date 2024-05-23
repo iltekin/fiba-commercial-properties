@@ -109,7 +109,7 @@ const projects = {
         renovasyon: true,
         katplani: true,
         slideSayisi: 3,
-        plansayisi: 3,
+        plansayisi: 4,
         bilgiler: [
             ["Açılış Tarihi", "2011"],
             ["Kiralanabilir Alan", "42.000 m²"],
