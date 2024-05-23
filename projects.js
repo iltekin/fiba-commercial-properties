@@ -272,9 +272,9 @@ const projects = {
     19: {
         baslik: "PLAZA ROMAINA OFİS, BÜKREŞ, ROMANYA",
         renovasyon: false,
-        katplani: false,
+        katplani: true,
         slideSayisi: 3,
-        plansayisi: 0,
+        plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "2016"],
             ["Kiralanabilir Alan", "10.500 m²"],
