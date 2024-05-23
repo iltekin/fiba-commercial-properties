@@ -139,11 +139,11 @@ const projects = {
         renovasyon: false,
         katplani: true,
         slideSayisi: 1,
-        plansayisi: 3,
+        plansayisi: 4,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
-            ["Kiralanabilir Alan", "75.000 m²"],
-            ["Mağaza Sayısı", "180"],
+            ["Kiralanabilir Alan", "70.000 m²"],
+            ["Mağaza Sayısı", "170"],
             ["Otopark Kapasitesi", "2.000"],
             ["", ""],
             ["", ""]
