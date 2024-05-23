@@ -172,8 +172,8 @@ const projects = {
         plansayisi: 0,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
-            ["Kiralanabilir Alan", "22.000 m²"],
-            ["Mağaza Sayısı", "65"],
+            ["Kiralanabilir Alan", "22.500 m²"],
+            ["Mağaza Sayısı", "75"],
             ["Otopark Kapasitesi", "450"],
             ["", ""],
             ["", ""]
