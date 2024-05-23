@@ -2,9 +2,9 @@ const projects = {
     1: {
         baslik: "BUCURESTI MALL, BÜKREŞ, ROMANYA",
         renovasyon: true,
-        katplani: false,
+        katplani: true,
         slideSayisi: 3,
-        plansayisi: 0,
+        plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "1999"],
             ["Kiralanabilir Alan", "40.500 m²"],
