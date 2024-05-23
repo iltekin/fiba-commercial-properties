@@ -167,9 +167,9 @@ const projects = {
     12: {
         baslik: "FENIX CENTER",
         renovasyon: false,
-        katplani: false,
+        katplani: true,
         slideSayisi: 3,
-        plansayisi: 0,
+        plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
             ["Kiralanabilir Alan", "22.500 m²"],
