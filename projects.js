@@ -47,9 +47,9 @@ const projects = {
     4: {
         baslik: "STARMALL, SHENYANG, ÇİN",
         renovasyon: true,
-        katplani: false,
+        katplani: true,
         slideSayisi: 6,
-        plansayisi: 0,
+        plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2014"],
             ["Kiralanabilir Alan", "111.000 m²"],
