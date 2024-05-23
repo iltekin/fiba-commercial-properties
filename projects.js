@@ -2,9 +2,9 @@ const projects = {
     1: {
         baslik: "BUCURESTI MALL, BÜKREŞ, ROMANYA",
         renovasyon: true,
-        katplani: false,
+        katplani: true,
         slideSayisi: 3,
-        plansayisi: 0,
+        plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "1999"],
             ["Kiralanabilir Alan", "40.500 m²"],
@@ -47,13 +47,13 @@ const projects = {
     4: {
         baslik: "STARMALL, SHENYANG, ÇİN",
         renovasyon: true,
-        katplani: false,
-        slideSayisi: 4,
-        plansayisi: 0,
+        katplani: true,
+        slideSayisi: 6,
+        plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2014"],
             ["Kiralanabilir Alan", "111.000 m²"],
-            ["Mağaza Sayısı", "240"],
+            ["Mağaza Sayısı", "246"],
             ["Otopark Kapasitesi", "2500"],
             ["", ""],
             ["", ""]
@@ -83,7 +83,7 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2003"],
             ["Kiralanabilir Alan", "49.000 m²"],
-            ["Mağaza Sayısı", "84"],
+            ["Mağaza Sayısı", "82"],
             ["Otopark Kapasitesi", "2.200"],
             ["", ""],
             ["", ""]
@@ -97,7 +97,7 @@ const projects = {
         plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "2010"],
-            ["Kiralanabilir Alan", "62.274 m²"],
+            ["Kiralanabilir Alan", "62.072 m²"],
             ["Mağaza Sayısı", "124"],
             ["Otopark Kapasitesi", "1.836"],
             ["", ""],
@@ -109,11 +109,11 @@ const projects = {
         renovasyon: true,
         katplani: true,
         slideSayisi: 3,
-        plansayisi: 3,
+        plansayisi: 4,
         bilgiler: [
             ["Açılış Tarihi", "2011"],
             ["Kiralanabilir Alan", "42.000 m²"],
-            ["Mağaza Sayısı", "110"],
+            ["Mağaza Sayısı", "98"],
             ["Otopark Kapasitesi", "1.000"],
             ["Renovasyon Tarihi", "2020"],
             ["", ""]
@@ -128,8 +128,8 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2000"],
             ["Kiralanabilir Alan", "90.000 m²"],
-            ["Mağaza Sayısı", "200"],
-            ["Otopark Kapasitesi", "2.650"],
+            ["Mağaza Sayısı", "183"],
+            ["Otopark Kapasitesi", "2.671"],
             ["Renovasyon Tarihi", "2017"],
             ["", ""]
         ]
@@ -139,11 +139,11 @@ const projects = {
         renovasyon: false,
         katplani: true,
         slideSayisi: 1,
-        plansayisi: 3,
+        plansayisi: 4,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
-            ["Kiralanabilir Alan", "75.000 m²"],
-            ["Mağaza Sayısı", "180"],
+            ["Kiralanabilir Alan", "70.000 m²"],
+            ["Mağaza Sayısı", "170"],
             ["Otopark Kapasitesi", "2.000"],
             ["", ""],
             ["", ""]
@@ -157,9 +157,9 @@ const projects = {
         plansayisi: 2,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
-            ["Kiralanabilir Alan", "9.046 m²"],
-            ["Mağaza Sayısı", "58"],
-            ["Otopark Kapasitesi", "400"],
+            ["Kiralanabilir Alan", "11.755 m²"],
+            ["Mağaza Sayısı", "35"],
+            ["", ""],
             ["", ""],
             ["", ""]
         ]
@@ -167,13 +167,13 @@ const projects = {
     12: {
         baslik: "FENIX CENTER",
         renovasyon: false,
-        katplani: false,
+        katplani: true,
         slideSayisi: 3,
-        plansayisi: 0,
+        plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
-            ["Kiralanabilir Alan", "22.000 m²"],
-            ["Mağaza Sayısı", "65"],
+            ["Kiralanabilir Alan", "22.500 m²"],
+            ["Mağaza Sayısı", "75"],
             ["Otopark Kapasitesi", "450"],
             ["", ""],
             ["", ""]
@@ -272,9 +272,9 @@ const projects = {
     19: {
         baslik: "PLAZA ROMAINA OFİS, BÜKREŞ, ROMANYA",
         renovasyon: false,
-        katplani: false,
+        katplani: true,
         slideSayisi: 3,
-        plansayisi: 0,
+        plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "2016"],
             ["Kiralanabilir Alan", "10.500 m²"],
