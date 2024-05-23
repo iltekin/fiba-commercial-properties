@@ -97,7 +97,7 @@ const projects = {
         plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "2010"],
-            ["Kiralanabilir Alan", "62.274 m²"],
+            ["Kiralanabilir Alan", "62.072 m²"],
             ["Mağaza Sayısı", "124"],
             ["Otopark Kapasitesi", "1.836"],
             ["", ""],
