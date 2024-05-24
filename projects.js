@@ -153,7 +153,7 @@ const projects = {
         baslik: "SKYTOWER BURSA",
         renovasyon: false,
         katplani: true,
-        slideSayisi: 2,
+        slideSayisi: 3,
         plansayisi: 2,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
