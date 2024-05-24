@@ -93,7 +93,7 @@ const projects = {
         baslik: "GEBZE CENTER, KOCAELİ",
         renovasyon: false,
         katplani: true,
-        slideSayisi: 4,
+        slideSayisi: 5,
         plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "2010"],
