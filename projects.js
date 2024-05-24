@@ -138,7 +138,7 @@ const projects = {
         baslik: "DOWNTOWN BURSA",
         renovasyon: false,
         katplani: true,
-        slideSayisi: 1,
+        slideSayisi: 2,
         plansayisi: 4,
         bilgiler: [
             ["Açılış Tarihi", "2023"],
