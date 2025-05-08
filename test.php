@@ -75,22 +75,6 @@ $data = [
     [
         'kategori' => 'avm',
         'ulke' => 'turkiye',
-        'gelecek' => 'hayir',
-        'id' => 10,
-        'title' => 'DOWNTOWN BURSA',
-        'link' => true
-    ],
-    [
-        'kategori' => 'avm',
-        'ulke' => 'turkiye',
-        'gelecek' => 'evet',
-        'id' => 11,
-        'title' => 'SKYTOWER BURSA',
-        'link' => true
-    ],
-    [
-        'kategori' => 'avm',
-        'ulke' => 'turkiye',
         'gelecek' => 'evet',
         'id' => 12,
         'title' => 'FENIX CENTER',
@@ -118,7 +102,7 @@ $data = [
         'gelecek' => 'evet',
         'id' => 15,
         'title' => 'DRUMUL TABEREİ REZİDANS',
-        'link' => false
+        'link' => true
     ],
     [
         'kategori' => 'rezidans',
@@ -158,7 +142,7 @@ $data = [
         'gelecek' => 'evet',
         'id' => 20,
         'title' => 'METROPOL PLAZA OFİS',
-        'link' => false
+        'link' => true
     ],
     [
         'kategori' => 'ofis',

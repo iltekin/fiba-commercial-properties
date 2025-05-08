@@ -38,8 +38,8 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2004"],
             ["Kiralanabilir Alan", "38.500 m²"],
-            ["Mağaza Sayısı", "110"],
-            ["Otopark Kapasitesi", "1.850"],
+            ["Mağaza Sayısı", "260"],
+            ["Otopark Kapasitesi", "2.600"],
             ["", ""],
             ["", ""]
         ]
