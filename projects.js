@@ -22,7 +22,7 @@ const projects = {
         plansayisi: 0,
         bilgiler: [
             ["Açılış Tarihi", "2008"],
-            ["Kiralanabilir Alan", "26.750 m²"],
+            ["Kiralanabilir Alan", "27.000 m²"],
             ["Mağaza Sayısı", "100"],
             ["Otopark Kapasitesi", "1.000"],
             ["", ""],
@@ -32,14 +32,14 @@ const projects = {
     3: {
         baslik: "PLAZA ROMANIA, BÜKREŞ, ROMANIA",
         renovasyon: true,
-        katplani: false,
+        katplani: true,
         slideSayisi: 4,
-        plansayisi: 0,
+        plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "2004"],
             ["Kiralanabilir Alan", "38.500 m²"],
-            ["Mağaza Sayısı", "110"],
-            ["Otopark Kapasitesi", "1.850"],
+            ["Mağaza Sayısı", "260"],
+            ["Otopark Kapasitesi", "2.600"],
             ["", ""],
             ["", ""]
         ]
@@ -98,7 +98,7 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2010"],
             ["Kiralanabilir Alan", "66.072 m²"],
-            ["Mağaza Sayısı", "124"],
+            ["Mağaza Sayısı", "130"],
             ["Otopark Kapasitesi", "1.836"],
             ["", ""],
             ["", ""]
@@ -108,12 +108,12 @@ const projects = {
         baslik: "İNEGÖL AVM, BURSA",
         renovasyon: true,
         katplani: true,
-        slideSayisi: 3,
+        slideSayisi: 4,
         plansayisi: 4,
         bilgiler: [
             ["Açılış Tarihi", "2011"],
             ["Kiralanabilir Alan", "42.000 m²"],
-            ["Mağaza Sayısı", "98"],
+            ["Mağaza Sayısı", "110"],
             ["Otopark Kapasitesi", "1.000"],
             ["Renovasyon Tarihi", "2020"],
             ["", ""]
@@ -128,8 +128,8 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2000"],
             ["Kiralanabilir Alan", "90.000 m²"],
-            ["Mağaza Sayısı", "183"],
-            ["Otopark Kapasitesi", "2.671"],
+            ["Mağaza Sayısı", "200"],
+            ["Otopark Kapasitesi", "2.650"],
             ["Renovasyon Tarihi", "2017"],
             ["", ""]
         ]
@@ -171,10 +171,10 @@ const projects = {
         slideSayisi: 3,
         plansayisi: 3,
         bilgiler: [
-            ["Açılış Tarihi", "2023"],
-            ["Kiralanabilir Alan", "22.500 m²"],
-            ["Mağaza Sayısı", "75"],
-            ["Otopark Kapasitesi", "450"],
+            ["Açılış Tarihi", "2025"],
+            ["Kiralanabilir Alan", "34.435 m²"],
+            ["Mağaza Sayısı", "65"],
+            ["Otopark Kapasitesi", "1.000"],
             ["", ""],
             ["", ""]
         ]
@@ -210,17 +210,17 @@ const projects = {
         ]
     },
     15: {
-        baslik: "XXXXXXXXXXXXXXXXX",
+        baslik: "DRUMUL TABEREİ REZİDANS",
         renovasyon: false,
         katplani: false,
-        slideSayisi: 3,
-        plansayisi: 2,
+        slideSayisi: 0,
+        plansayisi: 0,
         bilgiler: [
-            ["Açılış Tarihi", "XXXXXXXXXXXXXXXXX"],
-            ["Kiralanabilir Alan", "XXXXXXXXXXXXXXXXX"],
-            ["Mağaza Sayısı", "XXXXXXXXXXXXXXXXX"],
-            ["Otopark Kapasitesi", "XXXXXXXXXXXXXXXXX"],
-            ["Renovasyon Tarihi", "XXXXXXXXXXXXXXXXX"],
+            ["Açılış Tarihi", "2028"],
+            ["Daire Sayısı", "460"],
+            ["Otopark Kapasitesi", "550"],
+            ["", ""],
+            ["", ""],
             ["", ""]
         ]
     },
@@ -270,7 +270,7 @@ const projects = {
         ]
     },
     19: {
-        baslik: "PLAZA ROMAINA OFİS, BÜKREŞ, ROMANYA",
+        baslik: "PLAZA ROMANIA OFİS, BÜKREŞ, ROMANYA",
         renovasyon: false,
         katplani: true,
         slideSayisi: 3,
@@ -285,17 +285,17 @@ const projects = {
         ]
     },
     20: {
-        baslik: "XXXXXXXXXXXXXXXXX",
+        baslik: "METROPOL PLAZA OFİS",
         renovasyon: false,
         katplani: false,
-        slideSayisi: 3,
-        plansayisi: 2,
+        slideSayisi: 0,
+        plansayisi: 0,
         bilgiler: [
-            ["Açılış Tarihi", "XXXXXXXXXXXXXXXXX"],
-            ["Kiralanabilir Alan", "XXXXXXXXXXXXXXXXX"],
-            ["Mağaza Sayısı", "XXXXXXXXXXXXXXXXX"],
-            ["Otopark Kapasitesi", "XXXXXXXXXXXXXXXXX"],
-            ["Renovasyon Tarihi", "XXXXXXXXXXXXXXXXX"],
+            ["Kiralanabilir Alan", "34.500 m²"],
+            ["Kat Sayısı", "13"],
+            ["Otopark Kapasitesi", "550"],
+            ["", ""],
+            ["", ""],
             ["", ""]
         ]
     },
@@ -383,6 +383,36 @@ const projects = {
         bilgiler: [
             ["", ""],
             ["", ""],
+            ["", ""],
+            ["", ""],
+            ["", ""],
+            ["", ""]
+        ]
+    },
+    27: {
+        baslik: "NEW OFFICE PROJECT - MOLDOVA",
+        renovasyon: false,
+        katplani: false,
+        slideSayisi: 0,
+        plansayisi: 0,
+        bilgiler: [
+            ["Kiralanabilir Alan", "18.500 m²"],
+            ["", ""],
+            ["", ""],
+            ["", ""],
+            ["", ""],
+            ["", ""]
+        ]
+    },
+    28: {
+        baslik: "NEW SHOPPING MALL PROJECT - MOLDOVA",
+        renovasyon: false,
+        katplani: false,
+        slideSayisi: 0,
+        plansayisi: 0,
+        bilgiler: [
+            ["Açılış Tarihi", "2028"],
+            ["Kiralanabilir Alan", "65.000 m²"],
             ["", ""],
             ["", ""],
             ["", ""],

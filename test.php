@@ -75,26 +75,10 @@ $data = [
     [
         'kategori' => 'avm',
         'ulke' => 'turkiye',
-        'gelecek' => 'hayir',
-        'id' => 10,
-        'title' => 'DOWNTOWN BURSA',
-        'link' => true
-    ],
-    [
-        'kategori' => 'avm',
-        'ulke' => 'turkiye',
-        'gelecek' => 'evet',
-        'id' => 11,
-        'title' => 'SKYTOWER BURSA',
-        'link' => true
-    ],
-    [
-        'kategori' => 'avm',
-        'ulke' => 'turkiye',
         'gelecek' => 'evet',
         'id' => 12,
         'title' => 'FENIX CENTER',
-        'link' => false
+        'link' => true
     ],
     [
         'kategori' => 'rezidans',
@@ -118,7 +102,7 @@ $data = [
         'gelecek' => 'evet',
         'id' => 15,
         'title' => 'DRUMUL TABEREİ REZİDANS',
-        'link' => false
+        'link' => true
     ],
     [
         'kategori' => 'rezidans',
@@ -158,7 +142,7 @@ $data = [
         'gelecek' => 'evet',
         'id' => 20,
         'title' => 'METROPOL PLAZA OFİS',
-        'link' => false
+        'link' => true
     ],
     [
         'kategori' => 'ofis',
@@ -200,14 +184,30 @@ $data = [
         'title' => 'HOLLYWOOD MULTIPLEX ROMANYA',
         'link' => true
     ],
+    [
+        'kategori' => 'ofis',
+        'ulke' => 'moldova',
+        'gelecek' => 'evet',
+        'id' => 27,
+        'title' => 'NEW OFFICE PROJECT MOLDOVA',
+        'link' => true
+    ],
+    [
+        'kategori' => 'avm',
+        'ulke' => 'moldova',
+        'gelecek' => 'evet',
+        'id' => 28,
+        'title' => 'NEW SHOPPING MALL PROJECT MOLDOVA',
+        'link' => true
+    ]
 ];
 
 foreach ($data as $item) { ?>
-    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="<?=$item['kategori']?>" data-ulke="<?=$item['ulke']?>" data-gelecek="<?=$item['gelecek']?>">
+    <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-kategori="<?=$item['kategori']?>" data-ulke="<?=$item['ulke']?>" data-gelecek="<?=$item['gelecek']?>"">
         <?php if($item['link'] === true) { ?><a href="projects/<?=$item['id']?>/index.html"><?php } echo "\r\n"; ?>
-            <div class="project" id="project<?=$item['id']?>">
+            <div class="project" id="project<?=$item['id']?>" data-id="<?=$item['id']?>">
                 <div class="project-overlay">
-                    <h5 class="project-top-left-info d-none"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
+                    <h5 class="project-top-left-info <?php if($item['gelecek'] === 'hayir') { echo 'd-none'; } ?>"><i class="fa fa-gem mr-1"></i> Gelecek Proje</h5>
                     <h5 class="project-title"><?=$item['title']?></h5>
                 </div>
             </div>
