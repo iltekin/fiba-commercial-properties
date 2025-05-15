@@ -36,14 +36,6 @@ $data = [
         'kategori' => 'avm',
         'ulke' => 'turkiye',
         'gelecek' => 'hayir',
-        'id' => 5,
-        'title' => 'M1 GAZİANTEP AVM',
-        'link' => true
-    ],
-    [
-        'kategori' => 'avm',
-        'ulke' => 'turkiye',
-        'gelecek' => 'hayir',
         'id' => 6,
         'title' => 'M1 KONYA AVM',
         'link' => true
@@ -73,14 +65,6 @@ $data = [
         'link' => true
     ],
     [
-        'kategori' => 'avm',
-        'ulke' => 'turkiye',
-        'gelecek' => 'evet',
-        'id' => 12,
-        'title' => 'FENIX CENTER',
-        'link' => true
-    ],
-    [
         'kategori' => 'rezidans',
         'ulke' => 'romanya',
         'gelecek' => 'hayir',
@@ -94,14 +78,6 @@ $data = [
         'gelecek' => 'hayir',
         'id' => 14,
         'title' => 'SELECT REZİDANS',
-        'link' => true
-    ],
-    [
-        'kategori' => 'rezidans',
-        'ulke' => 'romanya',
-        'gelecek' => 'evet',
-        'id' => 15,
-        'title' => 'DRUMUL TABEREİ REZİDANS',
         'link' => true
     ],
     [
@@ -134,14 +110,6 @@ $data = [
         'gelecek' => 'hayir',
         'id' => 19,
         'title' => 'PLAZA ROMANIA OFİS',
-        'link' => true
-    ],
-    [
-        'kategori' => 'ofis',
-        'ulke' => 'romanya',
-        'gelecek' => 'evet',
-        'id' => 20,
-        'title' => 'METROPOL PLAZA OFİS',
         'link' => true
     ],
     [
@@ -182,6 +150,30 @@ $data = [
         'gelecek' => 'hayir',
         'id' => 25,
         'title' => 'HOLLYWOOD MULTIPLEX ROMANYA',
+        'link' => true
+    ],
+    [
+        'kategori' => 'ofis',
+        'ulke' => 'romanya',
+        'gelecek' => 'evet',
+        'id' => 20,
+        'title' => 'METROPOL PLAZA OFİS',
+        'link' => true
+    ],
+    [
+        'kategori' => 'rezidans',
+        'ulke' => 'romanya',
+        'gelecek' => 'evet',
+        'id' => 15,
+        'title' => 'DRUMUL TABEREİ REZİDANS',
+        'link' => true
+    ],
+    [
+        'kategori' => 'avm',
+        'ulke' => 'turkiye',
+        'gelecek' => 'evet',
+        'id' => 12,
+        'title' => 'FENIX CENTER',
         'link' => true
     ],
     [
