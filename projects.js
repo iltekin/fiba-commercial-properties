@@ -1,7 +1,7 @@
 const projects = {
     1: {
         baslik: "BUCURESTI MALL, BÜKREŞ, ROMANYA",
-        renovasyon: true,
+        yenileme: true,
         katplani: true,
         slideSayisi: 3,
         plansayisi: 5,
@@ -10,13 +10,13 @@ const projects = {
             ["Kiralanabilir Alan", "40.500 m²"],
             ["Mağaza Sayısı", "127"],
             ["Otopark Kapasitesi", "1850"],
-            ["Renovasyon Tarihi", "2016"],
+            ["Yenileme Tarihi", "2016"],
             ["", ""]
         ]
     },
     2: {
         baslik: "SHOPPING MALLDOVA, KİŞİNEV, MOLDOVA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 4,
         plansayisi: 0,
@@ -31,7 +31,7 @@ const projects = {
     },
     3: {
         baslik: "PLAZA ROMANIA, BÜKREŞ, ROMANIA",
-        renovasyon: true,
+        yenileme: true,
         katplani: true,
         slideSayisi: 4,
         plansayisi: 5,
@@ -46,7 +46,7 @@ const projects = {
     },
     4: {
         baslik: "STARMALL, SHENYANG, ÇİN",
-        renovasyon: true,
+        yenileme: true,
         katplani: true,
         slideSayisi: 6,
         plansayisi: 3,
@@ -61,7 +61,7 @@ const projects = {
     },
     5: {
         baslik: "M1 GAZİANTEP AVM",
-        renovasyon: true,
+        yenileme: true,
         katplani: true,
         slideSayisi: 4,
         plansayisi: 1,
@@ -70,13 +70,13 @@ const projects = {
             ["Kiralanabilir Alan", "51.700 m²"],
             ["Mağaza Sayısı", "60"],
             ["Otopark Kapasitesi", "1500"],
-            ["Renovasyon Tarihi", "2015"],
+            ["Yenileme Tarihi", "2015"],
             ["", ""]
         ]
     },
     6: {
         baslik: "M1 KONYA AVM",
-        renovasyon: false,
+        yenileme: false,
         katplani: true,
         slideSayisi: 3,
         plansayisi: 1,
@@ -91,7 +91,7 @@ const projects = {
     },
     7: {
         baslik: "GEBZE CENTER, KOCAELİ",
-        renovasyon: false,
+        yenileme: false,
         katplani: true,
         slideSayisi: 5,
         plansayisi: 5,
@@ -106,7 +106,7 @@ const projects = {
     },
     8: {
         baslik: "İNEGÖL AVM, BURSA",
-        renovasyon: true,
+        yenileme: true,
         katplani: true,
         slideSayisi: 4,
         plansayisi: 4,
@@ -115,13 +115,13 @@ const projects = {
             ["Kiralanabilir Alan", "42.000 m²"],
             ["Mağaza Sayısı", "110"],
             ["Otopark Kapasitesi", "1.000"],
-            ["Renovasyon Tarihi", "2020"],
+            ["Yenileme Tarihi", "2020"],
             ["", ""]
         ]
     },
     9: {
         baslik: "M1 ADANA AVM",
-        renovasyon: true,
+        yenileme: true,
         katplani: true,
         slideSayisi: 4,
         plansayisi: 1,
@@ -130,13 +130,13 @@ const projects = {
             ["Kiralanabilir Alan", "90.000 m²"],
             ["Mağaza Sayısı", "200"],
             ["Otopark Kapasitesi", "2.650"],
-            ["Renovasyon Tarihi", "2017"],
+            ["Yenileme Tarihi", "2017"],
             ["", ""]
         ]
     },
     10: {
         baslik: "DOWNTOWN BURSA",
-        renovasyon: false,
+        yenileme: false,
         katplani: true,
         slideSayisi: 2,
         plansayisi: 4,
@@ -151,7 +151,7 @@ const projects = {
     },
     11: {
         baslik: "SKYTOWER BURSA",
-        renovasyon: false,
+        yenileme: false,
         katplani: true,
         slideSayisi: 3,
         plansayisi: 2,
@@ -166,7 +166,7 @@ const projects = {
     },
     12: {
         baslik: "FENIX CENTER",
-        renovasyon: false,
+        yenileme: false,
         katplani: true,
         slideSayisi: 3,
         plansayisi: 3,
@@ -181,7 +181,7 @@ const projects = {
     },
     13: {
         baslik: "INCITY REZİDANS, BÜKREŞ, ROMANYA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 4,
         plansayisi: 0,
@@ -196,7 +196,7 @@ const projects = {
     },
     14: {
         baslik: "SELECT REZİDANS, BÜKREŞ, ROMANYA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 2,
         plansayisi: 0,
@@ -211,7 +211,7 @@ const projects = {
     },
     15: {
         baslik: "DRUMUL TABEREİ REZİDANS",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 0,
         plansayisi: 0,
@@ -226,7 +226,7 @@ const projects = {
     },
     16: {
         baslik: "PALLADY TOWER REZİDANS, BÜKREŞ, ROMANYA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 4,
         plansayisi: 0,
@@ -241,7 +241,7 @@ const projects = {
     },
     17: {
         baslik: "OFİSHANE, İSTANBUL",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 3,
         plansayisi: 0,
@@ -256,7 +256,7 @@ const projects = {
     },
     18: {
         baslik: "ANCHOR PLAZA OFİS, BÜKREŞ, ROMANYA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 3,
         plansayisi: 0,
@@ -271,7 +271,7 @@ const projects = {
     },
     19: {
         baslik: "PLAZA ROMANIA OFİS, BÜKREŞ, ROMANYA",
-        renovasyon: false,
+        yenileme: false,
         katplani: true,
         slideSayisi: 3,
         plansayisi: 5,
@@ -286,7 +286,7 @@ const projects = {
     },
     20: {
         baslik: "METROPOL PLAZA OFİS",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 0,
         plansayisi: 0,
@@ -301,7 +301,7 @@ const projects = {
     },
     21: {
         baslik: "MALLDOVA CENTER OFİS, KİŞİNEV, MOLDOVA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 5,
         plansayisi: 0,
@@ -316,7 +316,7 @@ const projects = {
     },
     22: {
         baslik: "COURTYARD BY MARRIOTT, KİŞİNEV, MOLDOVA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 2,
         plansayisi: 0,
@@ -331,7 +331,7 @@ const projects = {
     },
     23: {
         baslik: "SİNEPARK, GAZİANTEP",
-        renovasyon: true,
+        yenileme: true,
         katplani: false,
         slideSayisi: 4,
         plansayisi: 0,
@@ -346,7 +346,7 @@ const projects = {
     },
     24: {
         baslik: "MOVIEPLEX SİNEMA, BÜKREŞ, ROMANYA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 3,
         plansayisi: 0,
@@ -361,7 +361,7 @@ const projects = {
     },
     25: {
         baslik: "HOLLYWOOD MULTIPLEX SİNEMA, BÜKREŞ, ROMANYA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 2,
         plansayisi: 0,
@@ -376,7 +376,7 @@ const projects = {
     },
     26: {
         baslik: "BABYLON BURSA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 2,
         plansayisi: 0,
@@ -391,7 +391,7 @@ const projects = {
     },
     27: {
         baslik: "NEW OFFICE PROJECT - MOLDOVA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 0,
         plansayisi: 0,
@@ -406,7 +406,7 @@ const projects = {
     },
     28: {
         baslik: "NEW SHOPPING MALL PROJECT - MOLDOVA",
-        renovasyon: false,
+        yenileme: false,
         katplani: false,
         slideSayisi: 0,
         plansayisi: 0,
@@ -425,4 +425,4 @@ const path = window.location.pathname.split("/");
 const pathKey = path.length - 2;
 const id = path[pathKey];
 
-const { baslik, renovasyon, katplani, slideSayisi, plansayisi, bilgiler } = projects[id];
+const { baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler } = projects[id];
