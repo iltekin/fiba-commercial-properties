@@ -141,7 +141,7 @@ $data = [
         'ulke' => 'romanya',
         'gelecek' => 'hayir',
         'id' => 24,
-        'title' => 'MOVIEPLEX SİNEMA ROMANYA',
+        'title' => 'MOVIEPLEX SİNEMALARI',
         'link' => true
     ],
     [
@@ -149,7 +149,7 @@ $data = [
         'ulke' => 'romanya',
         'gelecek' => 'hayir',
         'id' => 25,
-        'title' => 'HOLLYWOOD MULTIPLEX ROMANYA',
+        'title' => 'HOLLYWOOD MULTIPLEX SİNEMALARI',
         'link' => true
     ],
     [
@@ -157,7 +157,7 @@ $data = [
         'ulke' => 'romanya',
         'gelecek' => 'evet',
         'id' => 20,
-        'title' => 'METROPOL PLAZA OFİS',
+        'title' => 'METROPOL LOFT REZİDANS',
         'link' => true
     ],
     [

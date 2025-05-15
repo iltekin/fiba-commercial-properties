@@ -38,8 +38,8 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2004"],
             ["Kiralanabilir Alan", "38.500 m²"],
-            ["Mağaza Sayısı", "260"],
-            ["Otopark Kapasitesi", "2.600"],
+            ["Mağaza Sayısı", "110"],
+            ["Otopark Kapasitesi", "1.850"],
             ["", ""],
             ["", ""]
         ]
@@ -52,9 +52,9 @@ const projects = {
         plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2014"],
-            ["Kiralanabilir Alan", "111.000 m²"],
-            ["Mağaza Sayısı", "246"],
-            ["Otopark Kapasitesi", "2500"],
+            ["Kiralanabilir Alan", "115.000 m²"],
+            ["Mağaza Sayısı", "270"],
+            ["Otopark Kapasitesi", "2.600"],
             ["", ""],
             ["", ""]
         ]
@@ -97,9 +97,9 @@ const projects = {
         plansayisi: 5,
         bilgiler: [
             ["Açılış Tarihi", "2010"],
-            ["Kiralanabilir Alan", "66.072 m²"],
+            ["Kiralanabilir Alan", "66.000 m²"],
             ["Mağaza Sayısı", "130"],
-            ["Otopark Kapasitesi", "1.836"],
+            ["Otopark Kapasitesi", "1.840"],
             ["", ""],
             ["", ""]
         ]
@@ -112,7 +112,7 @@ const projects = {
         plansayisi: 4,
         bilgiler: [
             ["Açılış Tarihi", "2011"],
-            ["Kiralanabilir Alan", "42.000 m²"],
+            ["Kiralanabilir Alan", "42.500 m²"],
             ["Mağaza Sayısı", "110"],
             ["Otopark Kapasitesi", "1.000"],
             ["Yenileme Tarihi", "2020"],
@@ -130,7 +130,7 @@ const projects = {
             ["Kiralanabilir Alan", "90.000 m²"],
             ["Mağaza Sayısı", "200"],
             ["Otopark Kapasitesi", "2.650"],
-            ["Yenileme Tarihi", "2017"],
+            ["Genişleme ve Yenileme Tarihi", "2017"],
             ["", ""]
         ]
     },
@@ -233,7 +233,7 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2020"],
             ["Daire Sayısı", "204"],
-            ["Otopark Kapasitesi", "130"],
+            ["", ""],
             ["", ""],
             ["", ""],
             ["", ""]
@@ -263,8 +263,8 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2007"],
             ["Kiralanabilir Alan", "25.000 m²"],
-            ["Otopark Kapasitesi", "275"],
             ["Kat Sayısı", "13"],
+            ["", ""],
             ["", ""],
             ["", ""]
         ]
@@ -272,7 +272,7 @@ const projects = {
     19: {
         baslik: "PLAZA ROMANIA OFİS, BÜKREŞ, ROMANYA",
         yenileme: false,
-        katplani: true,
+        katplani: false,
         slideSayisi: 3,
         plansayisi: 5,
         bilgiler: [
@@ -285,15 +285,15 @@ const projects = {
         ]
     },
     20: {
-        baslik: "METROPOL PLAZA OFİS",
+        baslik: "METROPOL LOFT REZİDANS",
         yenileme: false,
         katplani: false,
         slideSayisi: 0,
         plansayisi: 0,
         bilgiler: [
-            ["Kiralanabilir Alan", "34.500 m²"],
-            ["Kat Sayısı", "13"],
-            ["Otopark Kapasitesi", "550"],
+            ["Otopark Kapasitesi", "480"],
+            ["Daire Sayısı", "260"],
+            ["", ""],
             ["", ""],
             ["", ""],
             ["", ""]
@@ -322,8 +322,8 @@ const projects = {
         plansayisi: 0,
         bilgiler: [
             ["Açılış Tarihi", "2019"],
-            ["Otopark Kapasitesi", "61"],
             ["Oda Sayısı", "120"],
+            ["", ""],
             ["", ""],
             ["", ""],
             ["", ""]
@@ -345,7 +345,7 @@ const projects = {
         ]
     },
     24: {
-        baslik: "MOVIEPLEX SİNEMA, BÜKREŞ, ROMANYA",
+        baslik: "MOVIEPLEX SİNEMALARI, BÜKREŞ, ROMANYA",
         yenileme: false,
         katplani: false,
         slideSayisi: 3,
@@ -360,7 +360,7 @@ const projects = {
         ]
     },
     25: {
-        baslik: "HOLLYWOOD MULTIPLEX SİNEMA, BÜKREŞ, ROMANYA",
+        baslik: "HOLLYWOOD MULTIPLEX SİNEMALARI, BÜKREŞ, ROMANYA",
         yenileme: false,
         katplani: false,
         slideSayisi: 2,
@@ -397,7 +397,7 @@ const projects = {
         plansayisi: 0,
         bilgiler: [
             ["Kiralanabilir Alan", "18.500 m²"],
-            ["", ""],
+            ["Açılış Tarihi", "2027/2028"],
             ["", ""],
             ["", ""],
             ["", ""],
@@ -413,7 +413,7 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2028"],
             ["Kiralanabilir Alan", "65.000 m²"],
-            ["", ""],
+            ["Açılış Tarihi", "2027/2028"],
             ["", ""],
             ["", ""],
             ["", ""]
