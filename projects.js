@@ -17,9 +17,9 @@ const projects = {
     2: {
         baslik: "SHOPPING MALLDOVA, KİŞİNEV, MOLDOVA",
         yenileme: false,
-        katplani: false,
+        katplani: true,
         slideSayisi: 4,
-        plansayisi: 0,
+        plansayisi: 6,
         bilgiler: [
             ["Açılış Tarihi", "2008"],
             ["Kiralanabilir Alan", "27.000 m²"],
