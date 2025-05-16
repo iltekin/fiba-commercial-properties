@@ -52,10 +52,10 @@ const projects = {
         plansayisi: 3,
         bilgiler: [
             ["Açılış Tarihi", "2014"],
+            ["Yenileme Tarihi", "2017"],
             ["Kiralanabilir Alan", "115.000 m²"],
             ["Mağaza Sayısı", "270"],
             ["Otopark Kapasitesi", "2.600"],
-            ["", ""],
             ["", ""]
         ]
     },
@@ -278,8 +278,8 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2016"],
             ["Kiralanabilir Alan", "10.500 m²"],
-            ["Otopark Kapasitesi", "1.850"],
             ["Kat Sayısı", "2"],
+            ["", ""],
             ["", ""],
             ["", ""]
         ]
@@ -288,12 +288,12 @@ const projects = {
         baslik: "METROPOL LOFT REZİDANS",
         yenileme: false,
         katplani: false,
-        slideSayisi: 0,
+        slideSayisi: 3,
         plansayisi: 0,
         bilgiler: [
+            ["Açılış Tarihi", "2028"],
             ["Otopark Kapasitesi", "480"],
             ["Daire Sayısı", "260"],
-            ["", ""],
             ["", ""],
             ["", ""],
             ["", ""]
@@ -396,8 +396,8 @@ const projects = {
         slideSayisi: 0,
         plansayisi: 0,
         bilgiler: [
-            ["Kiralanabilir Alan", "18.500 m²"],
             ["Açılış Tarihi", "2027/2028"],
+            ["Kiralanabilir Alan", "18.500 m²"],
             ["", ""],
             ["", ""],
             ["", ""],
@@ -411,9 +411,9 @@ const projects = {
         slideSayisi: 0,
         plansayisi: 0,
         bilgiler: [
-            ["Açılış Tarihi", "2028"],
-            ["Kiralanabilir Alan", "65.000 m²"],
             ["Açılış Tarihi", "2027/2028"],
+            ["Kiralanabilir Alan", "65.000 m²"],
+            ["", ""],
             ["", ""],
             ["", ""],
             ["", ""]

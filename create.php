@@ -128,14 +128,14 @@ $data = [
         'title' => 'COURTYARD BY MARRIOTT',
         'link' => true
     ],
-    [
-        'kategori' => 'sinema',
-        'ulke' => 'turkiye',
-        'gelecek' => 'hayir',
-        'id' => 23,
-        'title' => 'SİNEPARK GAZİANTEP',
-        'link' => true
-    ],
+    // [
+    //     'kategori' => 'sinema',
+    //     'ulke' => 'turkiye',
+    //     'gelecek' => 'hayir',
+    //     'id' => 23,
+    //     'title' => 'SİNEPARK GAZİANTEP',
+    //     'link' => true
+    // ],
     [
         'kategori' => 'sinema',
         'ulke' => 'romanya',
