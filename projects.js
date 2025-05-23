@@ -83,7 +83,7 @@ const projects = {
         bilgiler: [
             ["Açılış Tarihi", "2003"],
             ["Kiralanabilir Alan", "49.000 m²"],
-            ["Mağaza Sayısı", "82"],
+            ["Mağaza Sayısı", "84"],
             ["Otopark Kapasitesi", "2.200"],
             ["", ""],
             ["", ""]
@@ -165,7 +165,7 @@ const projects = {
         ]
     },
     12: {
-        baslik: "FENIX CENTER",
+        baslik: "FENIX CENTER, ANTALYA",
         yenileme: false,
         katplani: true,
         slideSayisi: 3,
@@ -210,7 +210,7 @@ const projects = {
         ]
     },
     15: {
-        baslik: "DRUMUL TABEREİ REZİDANS",
+        baslik: "DRUMUL TABEREİ REZİDANS, ROMANYA",
         yenileme: false,
         katplani: false,
         slideSayisi: 0,
@@ -285,7 +285,7 @@ const projects = {
         ]
     },
     20: {
-        baslik: "METROPOL LOFT REZİDANS",
+        baslik: "METROPOL LOFT REZİDANS, ROMANYA",
         yenileme: false,
         katplani: false,
         slideSayisi: 3,
