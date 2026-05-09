@@ -1,6 +1,13 @@
-const projects = {
-    "1": {
-        "baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
+[
+    {
+        "id": 1,
+        "sira": 1,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "BUCURESTI MALL",
+        "detay_baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 3,
@@ -32,8 +39,15 @@ const projects = {
             ]
         ]
     },
-    "2": {
-        "baslik": "SHOPPING MALLDOVA, KİŞİNEV, MOLDOVA",
+    {
+        "id": 2,
+        "sira": 2,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "moldova",
+        "gelecek": false,
+        "title": "SHOPPING MALLDOVA",
+        "detay_baslik": "SHOPPING MALLDOVA, KİŞİNEV, MOLDOVA",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 4,
@@ -65,8 +79,15 @@ const projects = {
             ]
         ]
     },
-    "3": {
-        "baslik": "PLAZA ROMANIA, BÜKREŞ, ROMANIA",
+    {
+        "id": 3,
+        "sira": 3,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "PLAZA ROMANIA",
+        "detay_baslik": "PLAZA ROMANIA, BÜKREŞ, ROMANIA",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
@@ -98,8 +119,15 @@ const projects = {
             ]
         ]
     },
-    "4": {
-        "baslik": "STARMALL, SHENYANG, ÇİN",
+    {
+        "id": 4,
+        "sira": 4,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "cin",
+        "gelecek": false,
+        "title": "STARMALL",
+        "detay_baslik": "STARMALL, SHENYANG, ÇİN",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 6,
@@ -131,8 +159,15 @@ const projects = {
             ]
         ]
     },
-    "6": {
-        "baslik": "M1 KONYA AVM",
+    {
+        "id": 6,
+        "sira": 5,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "turkiye",
+        "gelecek": false,
+        "title": "M1 KONYA AVM",
+        "detay_baslik": "M1 KONYA AVM",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 3,
@@ -164,8 +199,15 @@ const projects = {
             ]
         ]
     },
-    "7": {
-        "baslik": "GEBZE CENTER, KOCAELİ",
+    {
+        "id": 7,
+        "sira": 6,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "turkiye",
+        "gelecek": false,
+        "title": "GEBZE CENTER",
+        "detay_baslik": "GEBZE CENTER, KOCAELİ",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 5,
@@ -197,8 +239,15 @@ const projects = {
             ]
         ]
     },
-    "8": {
-        "baslik": "İNEGÖL AVM, BURSA",
+    {
+        "id": 8,
+        "sira": 7,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "turkiye",
+        "gelecek": false,
+        "title": "İNEGÖL AVM",
+        "detay_baslik": "İNEGÖL AVM, BURSA",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
@@ -230,8 +279,15 @@ const projects = {
             ]
         ]
     },
-    "9": {
-        "baslik": "M1 ADANA AVM",
+    {
+        "id": 9,
+        "sira": 8,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "turkiye",
+        "gelecek": false,
+        "title": "M1 ADANA AVM",
+        "detay_baslik": "M1 ADANA AVM",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
@@ -263,8 +319,15 @@ const projects = {
             ]
         ]
     },
-    "13": {
-        "baslik": "INCITY REZİDANS, BÜKREŞ, ROMANYA",
+    {
+        "id": 13,
+        "sira": 9,
+        "gizli": false,
+        "kategori": "rezidans",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "INCITY RESIDENCE",
+        "detay_baslik": "INCITY REZİDANS, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 4,
@@ -296,8 +359,15 @@ const projects = {
             ]
         ]
     },
-    "14": {
-        "baslik": "SELECT REZİDANS, BÜKREŞ, ROMANYA",
+    {
+        "id": 14,
+        "sira": 10,
+        "gizli": false,
+        "kategori": "rezidans",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "SELECT REZİDANS",
+        "detay_baslik": "SELECT REZİDANS, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 2,
@@ -329,8 +399,15 @@ const projects = {
             ]
         ]
     },
-    "16": {
-        "baslik": "PALLADY TOWER REZİDANS, BÜKREŞ, ROMANYA",
+    {
+        "id": 16,
+        "sira": 11,
+        "gizli": false,
+        "kategori": "rezidans",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "PALLADY TOWER REZİDANS",
+        "detay_baslik": "PALLADY TOWER REZİDANS, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 4,
@@ -362,8 +439,15 @@ const projects = {
             ]
         ]
     },
-    "17": {
-        "baslik": "OFİSHANE, İSTANBUL",
+    {
+        "id": 17,
+        "sira": 12,
+        "gizli": false,
+        "kategori": "ofis",
+        "ulke": "turkiye",
+        "gelecek": false,
+        "title": "OFİSHANE",
+        "detay_baslik": "OFİSHANE, İSTANBUL",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 3,
@@ -395,8 +479,15 @@ const projects = {
             ]
         ]
     },
-    "18": {
-        "baslik": "ANCHOR PLAZA OFİS, BÜKREŞ, ROMANYA",
+    {
+        "id": 18,
+        "sira": 13,
+        "gizli": false,
+        "kategori": "ofis",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "ANCHOR PLAZA OFİS",
+        "detay_baslik": "ANCHOR PLAZA OFİS, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 3,
@@ -428,8 +519,15 @@ const projects = {
             ]
         ]
     },
-    "19": {
-        "baslik": "PLAZA ROMANIA OFİS, BÜKREŞ, ROMANYA",
+    {
+        "id": 19,
+        "sira": 14,
+        "gizli": false,
+        "kategori": "ofis",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "PLAZA ROMANIA OFİS",
+        "detay_baslik": "PLAZA ROMANIA OFİS, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 3,
@@ -461,8 +559,15 @@ const projects = {
             ]
         ]
     },
-    "21": {
-        "baslik": "MALLDOVA CENTER OFİS, KİŞİNEV, MOLDOVA",
+    {
+        "id": 21,
+        "sira": 15,
+        "gizli": false,
+        "kategori": "ofis",
+        "ulke": "moldova",
+        "gelecek": false,
+        "title": "MALLDOVA CENTER OFİS",
+        "detay_baslik": "MALLDOVA CENTER OFİS, KİŞİNEV, MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 5,
@@ -494,8 +599,15 @@ const projects = {
             ]
         ]
     },
-    "22": {
-        "baslik": "COURTYARD BY MARRIOTT, KİŞİNEV, MOLDOVA",
+    {
+        "id": 22,
+        "sira": 16,
+        "gizli": false,
+        "kategori": "otel",
+        "ulke": "moldova",
+        "gelecek": false,
+        "title": "COURTYARD BY MARRIOTT",
+        "detay_baslik": "COURTYARD BY MARRIOTT, KİŞİNEV, MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 2,
@@ -527,8 +639,15 @@ const projects = {
             ]
         ]
     },
-    "24": {
-        "baslik": "MOVIEPLEX SİNEMALARI, BÜKREŞ, ROMANYA",
+    {
+        "id": 24,
+        "sira": 17,
+        "gizli": false,
+        "kategori": "sinema",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "MOVIEPLEX SİNEMALARI",
+        "detay_baslik": "MOVIEPLEX SİNEMALARI, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 3,
@@ -560,8 +679,15 @@ const projects = {
             ]
         ]
     },
-    "25": {
-        "baslik": "HOLLYWOOD MULTIPLEX SİNEMALARI, BÜKREŞ, ROMANYA",
+    {
+        "id": 25,
+        "sira": 18,
+        "gizli": false,
+        "kategori": "sinema",
+        "ulke": "romanya",
+        "gelecek": false,
+        "title": "HOLLYWOOD MULTIPLEX SİNEMALARI",
+        "detay_baslik": "HOLLYWOOD MULTIPLEX SİNEMALARI, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 2,
@@ -593,8 +719,15 @@ const projects = {
             ]
         ]
     },
-    "20": {
-        "baslik": "METROPOL LOFT REZİDANS",
+    {
+        "id": 20,
+        "sira": 19,
+        "gizli": false,
+        "kategori": "ofis",
+        "ulke": "romanya",
+        "gelecek": true,
+        "title": "METROPOL LOFT REZİDANS",
+        "detay_baslik": "METROPOL LOFT REZİDANS",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 3,
@@ -626,8 +759,15 @@ const projects = {
             ]
         ]
     },
-    "15": {
-        "baslik": "DRUMUL TABEREİ REZİDANS",
+    {
+        "id": 15,
+        "sira": 20,
+        "gizli": false,
+        "kategori": "rezidans",
+        "ulke": "romanya",
+        "gelecek": true,
+        "title": "DRUMUL TABEREİ REZİDANS",
+        "detay_baslik": "DRUMUL TABEREİ REZİDANS",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 0,
@@ -659,8 +799,15 @@ const projects = {
             ]
         ]
     },
-    "12": {
-        "baslik": "FENIX CENTER",
+    {
+        "id": 12,
+        "sira": 21,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "turkiye",
+        "gelecek": true,
+        "title": "FENIX CENTER",
+        "detay_baslik": "FENIX CENTER",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 3,
@@ -692,8 +839,15 @@ const projects = {
             ]
         ]
     },
-    "27": {
-        "baslik": "NEW OFFICE PROJECT - MOLDOVA",
+    {
+        "id": 27,
+        "sira": 22,
+        "gizli": false,
+        "kategori": "ofis",
+        "ulke": "moldova",
+        "gelecek": true,
+        "title": "NEW OFFICE PROJECT MOLDOVA",
+        "detay_baslik": "NEW OFFICE PROJECT - MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 0,
@@ -725,8 +879,15 @@ const projects = {
             ]
         ]
     },
-    "28": {
-        "baslik": "NEW SHOPPING MALL PROJECT - MOLDOVA",
+    {
+        "id": 28,
+        "sira": 23,
+        "gizli": false,
+        "kategori": "avm",
+        "ulke": "moldova",
+        "gelecek": true,
+        "title": "NEW SHOPPING MALL PROJECT MOLDOVA",
+        "detay_baslik": "NEW SHOPPING MALL PROJECT - MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 0,
@@ -758,10 +919,4 @@ const projects = {
             ]
         ]
     }
-};
-
-const path = window.location.pathname.split("/");
-const pathKey = path.length - 2;
-const id = path[pathKey];
-
-const { baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler } = projects[id];
+]
