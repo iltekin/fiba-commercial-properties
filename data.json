@@ -161,13 +161,11 @@
     },
     {
         "id": 6,
-        "sira": 5,
-        "gizli": false,
+        "title": "M1 KONYA AVM",
+        "detay_baslik": "M1 KONYA AVM",
         "kategori": "avm",
         "ulke": "turkiye",
         "gelecek": false,
-        "title": "M1 KONYA AVM",
-        "detay_baslik": "M1 KONYA AVM",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 3,
@@ -183,7 +181,7 @@
             ],
             [
                 "Mağaza Sayısı",
-                "82"
+                "84"
             ],
             [
                 "Otopark Kapasitesi",
@@ -197,7 +195,9 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 5,
+        "gizli": false
     },
     {
         "id": 7,
@@ -721,13 +721,11 @@
     },
     {
         "id": 20,
-        "sira": 19,
-        "gizli": false,
+        "title": "METROPOL LOFT REZİDANS",
+        "detay_baslik": "METROPOL LOFT REZİDANS, ROMANYA",
         "kategori": "ofis",
         "ulke": "romanya",
         "gelecek": true,
-        "title": "METROPOL LOFT REZİDANS",
-        "detay_baslik": "METROPOL LOFT REZİDANS",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 3,
@@ -757,17 +755,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 19,
+        "gizli": false
     },
     {
         "id": 15,
-        "sira": 20,
-        "gizli": false,
+        "title": "DRUMUL TABEREİ REZİDANS",
+        "detay_baslik": "DRUMUL TABEREİ REZİDANS, ROMANYA",
         "kategori": "rezidans",
         "ulke": "romanya",
         "gelecek": true,
-        "title": "DRUMUL TABEREİ REZİDANS",
-        "detay_baslik": "DRUMUL TABEREİ REZİDANS",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 0,
@@ -797,17 +795,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 20,
+        "gizli": false
     },
     {
         "id": 12,
-        "sira": 21,
-        "gizli": false,
+        "title": "FENIX CENTER",
+        "detay_baslik": "FENIX CENTER, ANTALYA",
         "kategori": "avm",
         "ulke": "turkiye",
         "gelecek": true,
-        "title": "FENIX CENTER",
-        "detay_baslik": "FENIX CENTER",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 3,
@@ -837,7 +835,9 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 21,
+        "gizli": false
     },
     {
         "id": 27,
