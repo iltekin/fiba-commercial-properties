@@ -1,13 +1,11 @@
 [
     {
         "id": 1,
-        "sira": 1,
-        "gizli": false,
+        "title": "BUCURESTI MALL",
+        "detay_baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
         "kategori": "avm",
         "ulke": "romanya",
         "gelecek": false,
-        "title": "BUCURESTI MALL",
-        "detay_baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 3,
@@ -37,17 +35,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 1,
+        "gizli": false
     },
     {
         "id": 2,
-        "sira": 2,
-        "gizli": false,
+        "title": "SHOPPING MALLDOVA",
+        "detay_baslik": "SHOPPING MALLDOVA, KİŞİNEV, MOLDOVA",
         "kategori": "avm",
         "ulke": "moldova",
         "gelecek": false,
-        "title": "SHOPPING MALLDOVA",
-        "detay_baslik": "SHOPPING MALLDOVA, KİŞİNEV, MOLDOVA",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 4,
@@ -77,17 +75,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 2,
+        "gizli": false
     },
     {
         "id": 3,
-        "sira": 3,
-        "gizli": false,
+        "title": "PLAZA ROMANIA",
+        "detay_baslik": "PLAZA ROMANIA, BÜKREŞ, ROMANIA",
         "kategori": "avm",
         "ulke": "romanya",
         "gelecek": false,
-        "title": "PLAZA ROMANIA",
-        "detay_baslik": "PLAZA ROMANIA, BÜKREŞ, ROMANIA",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
@@ -117,17 +115,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 3,
+        "gizli": false
     },
     {
         "id": 4,
-        "sira": 4,
-        "gizli": false,
+        "title": "STARMALL",
+        "detay_baslik": "STARMALL, SHENYANG, ÇİN",
         "kategori": "avm",
         "ulke": "cin",
         "gelecek": false,
-        "title": "STARMALL",
-        "detay_baslik": "STARMALL, SHENYANG, ÇİN",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 6,
@@ -157,7 +155,9 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 4,
+        "gizli": false
     },
     {
         "id": 6,
@@ -181,7 +181,7 @@
             ],
             [
                 "Mağaza Sayısı",
-                "84"
+                "82"
             ],
             [
                 "Otopark Kapasitesi",
@@ -201,17 +201,15 @@
     },
     {
         "id": 7,
-        "sira": 6,
-        "gizli": false,
+        "title": "GEBZE CENTER",
+        "detay_baslik": "GEBZE CENTER, KOCAELİ",
         "kategori": "avm",
         "ulke": "turkiye",
         "gelecek": false,
-        "title": "GEBZE CENTER",
-        "detay_baslik": "GEBZE CENTER, KOCAELİ",
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 5,
-        "plansayisi": 5,
+        "plansayisi": 3,
         "bilgiler": [
             [
                 "Açılış Tarihi",
@@ -237,17 +235,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 6,
+        "gizli": false
     },
     {
         "id": 8,
-        "sira": 7,
-        "gizli": false,
+        "title": "İNEGÖL AVM",
+        "detay_baslik": "İNEGÖL AVM, BURSA",
         "kategori": "avm",
         "ulke": "turkiye",
         "gelecek": false,
-        "title": "İNEGÖL AVM",
-        "detay_baslik": "İNEGÖL AVM, BURSA",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
@@ -277,17 +275,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 7,
+        "gizli": false
     },
     {
         "id": 9,
-        "sira": 8,
-        "gizli": false,
+        "title": "M1 ADANA AVM",
+        "detay_baslik": "M1 ADANA AVM",
         "kategori": "avm",
         "ulke": "turkiye",
         "gelecek": false,
-        "title": "M1 ADANA AVM",
-        "detay_baslik": "M1 ADANA AVM",
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
@@ -317,7 +315,9 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 8,
+        "gizli": false
     },
     {
         "id": 13,
@@ -481,16 +481,14 @@
     },
     {
         "id": 18,
-        "sira": 13,
-        "gizli": false,
+        "title": "ANCHOR PLAZA OFİS",
+        "detay_baslik": "ANCHOR PLAZA OFİS, BÜKREŞ, ROMANYA",
         "kategori": "ofis",
         "ulke": "romanya",
         "gelecek": false,
-        "title": "ANCHOR PLAZA OFİS",
-        "detay_baslik": "ANCHOR PLAZA OFİS, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
-        "slideSayisi": 3,
+        "slideSayisi": 11,
         "plansayisi": 0,
         "bilgiler": [
             [
@@ -517,7 +515,9 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 13,
+        "gizli": false
     },
     {
         "id": 19,
@@ -813,7 +813,7 @@
         "bilgiler": [
             [
                 "Açılış Tarihi",
-                "2025"
+                "2026"
             ],
             [
                 "Kiralanabilir Alan",
@@ -881,13 +881,11 @@
     },
     {
         "id": 28,
-        "sira": 23,
-        "gizli": false,
+        "title": "NEW SHOPPING MALL PROJECT MOLDOVA",
+        "detay_baslik": "NEW SHOPPING MALL PROJECT - MOLDOVA",
         "kategori": "avm",
         "ulke": "moldova",
         "gelecek": true,
-        "title": "NEW SHOPPING MALL PROJECT MOLDOVA",
-        "detay_baslik": "NEW SHOPPING MALL PROJECT - MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 0,
@@ -899,7 +897,7 @@
             ],
             [
                 "Kiralanabilir Alan",
-                "65.000 m²"
+                "60.000 m²"
             ],
             [
                 "",
@@ -917,6 +915,48 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 23,
+        "gizli": false
+    },
+    {
+        "id": 29,
+        "title": "ALBA CITY CENTER",
+        "detay_baslik": "ALBA CITY CENTER",
+        "kategori": "avm",
+        "ulke": "kosova",
+        "gelecek": true,
+        "yenileme": false,
+        "katplani": true,
+        "slideSayisi": 5,
+        "plansayisi": 3,
+        "bilgiler": [
+            [
+                "Açılış Tarihi",
+                "2027"
+            ],
+            [
+                "Kiralanabilir Alan",
+                "21.661 m²"
+            ],
+            [
+                "Mağaza Sayısı",
+                "74"
+            ],
+            [
+                "Otopark Kapasitesi",
+                "400"
+            ],
+            [
+                "",
+                ""
+            ],
+            [
+                "",
+                ""
+            ]
+        ],
+        "sira": 24,
+        "gizli": false
     }
 ]

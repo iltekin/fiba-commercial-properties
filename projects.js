@@ -1,3 +1,4 @@
+const siteVersion = '1778360813';
 const projects = {
     "1": {
         "baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
@@ -148,7 +149,7 @@ const projects = {
             ],
             [
                 "Mağaza Sayısı",
-                "84"
+                "82"
             ],
             [
                 "Otopark Kapasitesi",
@@ -169,7 +170,7 @@ const projects = {
         "yenileme": false,
         "katplani": true,
         "slideSayisi": 5,
-        "plansayisi": 5,
+        "plansayisi": 3,
         "bilgiler": [
             [
                 "Açılış Tarihi",
@@ -399,7 +400,7 @@ const projects = {
         "baslik": "ANCHOR PLAZA OFİS, BÜKREŞ, ROMANYA",
         "yenileme": false,
         "katplani": false,
-        "slideSayisi": 3,
+        "slideSayisi": 11,
         "plansayisi": 0,
         "bilgiler": [
             [
@@ -668,7 +669,7 @@ const projects = {
         "bilgiler": [
             [
                 "Açılış Tarihi",
-                "2025"
+                "2026"
             ],
             [
                 "Kiralanabilir Alan",
@@ -738,7 +739,7 @@ const projects = {
             ],
             [
                 "Kiralanabilir Alan",
-                "65.000 m²"
+                "60.000 m²"
             ],
             [
                 "",
@@ -757,6 +758,39 @@ const projects = {
                 ""
             ]
         ]
+    },
+    "29": {
+        "baslik": "ALBA CITY CENTER",
+        "yenileme": false,
+        "katplani": true,
+        "slideSayisi": 5,
+        "plansayisi": 3,
+        "bilgiler": [
+            [
+                "Açılış Tarihi",
+                "2027"
+            ],
+            [
+                "Kiralanabilir Alan",
+                "21.661 m²"
+            ],
+            [
+                "Mağaza Sayısı",
+                "74"
+            ],
+            [
+                "Otopark Kapasitesi",
+                "400"
+            ],
+            [
+                "",
+                ""
+            ],
+            [
+                "",
+                ""
+            ]
+        ]
     }
 };
 
@@ -764,4 +798,23 @@ const path = window.location.pathname.split("/");
 const pathKey = path.length - 2;
 const id = path[pathKey];
 
-const { baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler } = projects[id];
+let baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler;
+if(projects[id]) { ({ baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler } = projects[id]); }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const updateImages = () => {
+        document.querySelectorAll('img[src*=".jpg"], a[data-src*=".jpg"]').forEach(el => {
+            if (el.tagName === 'IMG' && !el.src.includes('?v=')) el.src = el.getAttribute('src') + '?v=' + siteVersion;
+            if (el.hasAttribute('data-src') && !el.getAttribute('data-src').includes('?v=')) el.setAttribute('data-src', el.getAttribute('data-src') + '?v=' + siteVersion);
+        });
+        document.querySelectorAll('.katplani-image, .yenileme-image').forEach(el => {
+            let bg = el.style.backgroundImage;
+            if (bg && bg.includes('.jpg') && !bg.includes('?v=')) {
+                el.style.backgroundImage = bg.replace(/\.jpg/g, '.jpg?v=' + siteVersion);
+            }
+        });
+    };
+    updateImages();
+    const observer = new MutationObserver(updateImages);
+    observer.observe(document.body, { childList: true, subtree: true });
+});

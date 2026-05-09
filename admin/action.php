@@ -107,11 +107,30 @@ function generateSite($projects) {
         ];
     }
     
-    $jsContent = "const projects = " . json_encode($jsObj, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) . ";\n\n";
+    $jsContent = "const siteVersion = '" . time() . "';\n";
+    $jsContent .= "const projects = " . json_encode($jsObj, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) . ";\n\n";
     $jsContent .= "const path = window.location.pathname.split(\"/\");\n";
     $jsContent .= "const pathKey = path.length - 2;\n";
     $jsContent .= "const id = path[pathKey];\n\n";
-    $jsContent .= "const { baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler } = projects[id];\n";
+    $jsContent .= "let baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler;\n";
+    $jsContent .= "if(projects[id]) { ({ baslik, yenileme, katplani, slideSayisi, plansayisi, bilgiler } = projects[id]); }\n\n";
+    $jsContent .= "document.addEventListener('DOMContentLoaded', function() {\n";
+    $jsContent .= "    const updateImages = () => {\n";
+    $jsContent .= "        document.querySelectorAll('img[src*=\".jpg\"], a[data-src*=\".jpg\"]').forEach(el => {\n";
+    $jsContent .= "            if (el.tagName === 'IMG' && !el.src.includes('?v=')) el.src = el.getAttribute('src') + '?v=' + siteVersion;\n";
+    $jsContent .= "            if (el.hasAttribute('data-src') && !el.getAttribute('data-src').includes('?v=')) el.setAttribute('data-src', el.getAttribute('data-src') + '?v=' + siteVersion);\n";
+    $jsContent .= "        });\n";
+    $jsContent .= "        document.querySelectorAll('.katplani-image, .yenileme-image').forEach(el => {\n";
+    $jsContent .= "            let bg = el.style.backgroundImage;\n";
+    $jsContent .= "            if (bg && bg.includes('.jpg') && !bg.includes('?v=')) {\n";
+    $jsContent .= "                el.style.backgroundImage = bg.replace(/\\.jpg/g, '.jpg?v=' + siteVersion);\n";
+    $jsContent .= "            }\n";
+    $jsContent .= "        });\n";
+    $jsContent .= "    };\n";
+    $jsContent .= "    updateImages();\n";
+    $jsContent .= "    const observer = new MutationObserver(updateImages);\n";
+    $jsContent .= "    observer.observe(document.body, { childList: true, subtree: true });\n";
+    $jsContent .= "});\n";
     
     file_put_contents('../projects.js', $jsContent);
 
