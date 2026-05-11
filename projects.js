@@ -1,4 +1,4 @@
-const siteVersion = '1778489662';
+const siteVersion = '1778510528';
 const projects = {
     "1": {
         "baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
@@ -46,7 +46,7 @@ const projects = {
             ],
             [
                 "Kiralanabilir Alan",
-                "27.000 m²"
+                "30.000 m²"
             ],
             [
                 "Mağaza Sayısı",
@@ -479,7 +479,7 @@ const projects = {
             ],
             [
                 "Kat Sayısı",
-                "12"
+                "15"
             ],
             [
                 "",
@@ -508,7 +508,7 @@ const projects = {
             ],
             [
                 "Oda Sayısı",
-                "120"
+                "118"
             ],
             [
                 "",
@@ -694,7 +694,7 @@ const projects = {
         ]
     },
     "27": {
-        "baslik": "NEW OFFICE PROJECT - MOLDOVA",
+        "baslik": "LIFE CENTER, MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 0,
@@ -706,7 +706,7 @@ const projects = {
             ],
             [
                 "Kiralanabilir Alan",
-                "18.500 m²"
+                "25.000 m²"
             ],
             [
                 "",
@@ -735,15 +735,15 @@ const projects = {
         "bilgiler": [
             [
                 "Açılış Tarihi",
-                "2027\/2028"
+                "2029"
             ],
             [
                 "Kiralanabilir Alan",
                 "60.000 m²"
             ],
             [
-                "",
-                ""
+                "Otopark Kapasitesi",
+                "2.000"
             ],
             [
                 "",
