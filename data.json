@@ -57,7 +57,7 @@
             ],
             [
                 "Kiralanabilir Alan",
-                "27.000 m²"
+                "30.000 m²"
             ],
             [
                 "Mağaza Sayısı",
@@ -561,13 +561,11 @@
     },
     {
         "id": 21,
-        "sira": 15,
-        "gizli": false,
+        "title": "MALLDOVA CENTER OFİS",
+        "detay_baslik": "MALLDOVA CENTER OFİS, KİŞİNEV, MOLDOVA",
         "kategori": "ofis",
         "ulke": "moldova",
         "gelecek": false,
-        "title": "MALLDOVA CENTER OFİS",
-        "detay_baslik": "MALLDOVA CENTER OFİS, KİŞİNEV, MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 5,
@@ -583,7 +581,7 @@
             ],
             [
                 "Kat Sayısı",
-                "12"
+                "15"
             ],
             [
                 "",
@@ -597,17 +595,17 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 15,
+        "gizli": false
     },
     {
         "id": 22,
-        "sira": 16,
-        "gizli": false,
+        "title": "COURTYARD BY MARRIOTT",
+        "detay_baslik": "COURTYARD BY MARRIOTT, KİŞİNEV, MOLDOVA",
         "kategori": "otel",
         "ulke": "moldova",
         "gelecek": false,
-        "title": "COURTYARD BY MARRIOTT",
-        "detay_baslik": "COURTYARD BY MARRIOTT, KİŞİNEV, MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 2,
@@ -619,7 +617,7 @@
             ],
             [
                 "Oda Sayısı",
-                "120"
+                "118"
             ],
             [
                 "",
@@ -637,7 +635,9 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 16,
+        "gizli": false
     },
     {
         "id": 24,
@@ -841,13 +841,11 @@
     },
     {
         "id": 27,
-        "sira": 22,
-        "gizli": false,
+        "title": "LIFE CENTER",
+        "detay_baslik": "LIFE CENTER, MOLDOVA",
         "kategori": "ofis",
         "ulke": "moldova",
         "gelecek": true,
-        "title": "NEW OFFICE PROJECT MOLDOVA",
-        "detay_baslik": "NEW OFFICE PROJECT - MOLDOVA",
         "yenileme": false,
         "katplani": false,
         "slideSayisi": 0,
@@ -859,7 +857,7 @@
             ],
             [
                 "Kiralanabilir Alan",
-                "18.500 m²"
+                "25.000 m²"
             ],
             [
                 "",
@@ -877,7 +875,9 @@
                 "",
                 ""
             ]
-        ]
+        ],
+        "sira": 22,
+        "gizli": false
     },
     {
         "id": 28,
@@ -893,15 +893,15 @@
         "bilgiler": [
             [
                 "Açılış Tarihi",
-                "2027\/2028"
+                "2029"
             ],
             [
                 "Kiralanabilir Alan",
                 "60.000 m²"
             ],
             [
-                "",
-                ""
+                "Otopark Kapasitesi",
+                "2.000"
             ],
             [
                 "",
