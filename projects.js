@@ -1,4 +1,4 @@
-const siteVersion = '1778488911';
+const siteVersion = '1778489662';
 const projects = {
     "1": {
         "baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
@@ -807,7 +807,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (el.tagName === 'IMG' && !el.src.includes('?v=')) el.src = el.getAttribute('src') + '?v=' + siteVersion;
             if (el.hasAttribute('data-src') && !el.getAttribute('data-src').includes('?v=')) el.setAttribute('data-src', el.getAttribute('data-src') + '?v=' + siteVersion);
         });
-        document.querySelectorAll('.katplani-image, .yenileme-image').forEach(el => {
+        document.querySelectorAll('.katplani-image, .yenileme-image, .project').forEach(el => {
             let bg = el.style.backgroundImage;
             if (bg && bg.includes('.jpg') && !bg.includes('?v=')) {
                 el.style.backgroundImage = bg.replace(/\.jpg/g, '.jpg?v=' + siteVersion);
