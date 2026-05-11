@@ -1,4 +1,4 @@
-const siteVersion = '1778360813';
+const siteVersion = '1778488911';
 const projects = {
     "1": {
         "baslik": "BUCURESTI MALL, BÜKREŞ, ROMANYA",
@@ -203,7 +203,7 @@ const projects = {
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
-        "plansayisi": 4,
+        "plansayisi": 5,
         "bilgiler": [
             [
                 "Açılış Tarihi",
@@ -772,7 +772,7 @@ const projects = {
             ],
             [
                 "Kiralanabilir Alan",
-                "21.661 m²"
+                "21.660 m²"
             ],
             [
                 "Mağaza Sayısı",
