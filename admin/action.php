@@ -120,7 +120,7 @@ function generateSite($projects) {
     $jsContent .= "            if (el.tagName === 'IMG' && !el.src.includes('?v=')) el.src = el.getAttribute('src') + '?v=' + siteVersion;\n";
     $jsContent .= "            if (el.hasAttribute('data-src') && !el.getAttribute('data-src').includes('?v=')) el.setAttribute('data-src', el.getAttribute('data-src') + '?v=' + siteVersion);\n";
     $jsContent .= "        });\n";
-    $jsContent .= "        document.querySelectorAll('.katplani-image, .yenileme-image').forEach(el => {\n";
+    $jsContent .= "        document.querySelectorAll('.katplani-image, .yenileme-image, .project').forEach(el => {\n";
     $jsContent .= "            let bg = el.style.backgroundImage;\n";
     $jsContent .= "            if (bg && bg.includes('.jpg') && !bg.includes('?v=')) {\n";
     $jsContent .= "                el.style.backgroundImage = bg.replace(/\\.jpg/g, '.jpg?v=' + siteVersion);\n";
@@ -171,6 +171,13 @@ function generateSite($projects) {
     if ($startPos !== false && $endPos !== false) {
         $endPos += strlen($endMarker);
         $newTemplate = substr($template, 0, $startPos) . $startMarker . "\n" . $htmlList . "    " . $endMarker . substr($template, $endPos);
+        
+        // Cache bust scripts and styles
+        $v = time();
+        $newTemplate = str_replace('src="projects.js"', 'src="projects.js?v=' . $v . '"', $newTemplate);
+        $newTemplate = str_replace('src="js/main.js"', 'src="js/main.js?v=' . $v . '"', $newTemplate);
+        $newTemplate = str_replace('href="css/main.css?v=2"', 'href="css/main.css?v=' . $v . '"', $newTemplate);
+
         file_put_contents('../index.html', $newTemplate);
     }
 }

@@ -64,9 +64,10 @@ $(".kategoriSec li").click(function(){
 
 function addBackgroundImages() {
     const projects = document.querySelectorAll(".project");
+    const v = typeof siteVersion !== 'undefined' ? siteVersion : Date.now();
     projects.forEach((project) => {
         const id = project.getAttribute("data-id");
-        project.style.backgroundImage = `url('../projects/${id}/img/kapak.jpg')`;
+        project.style.backgroundImage = `url('../projects/${id}/img/kapak.jpg?v=${v}')`;
     });
 }
 
