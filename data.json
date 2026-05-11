@@ -249,7 +249,7 @@
         "yenileme": true,
         "katplani": true,
         "slideSayisi": 4,
-        "plansayisi": 4,
+        "plansayisi": 5,
         "bilgiler": [
             [
                 "Açılış Tarihi",
@@ -937,7 +937,7 @@
             ],
             [
                 "Kiralanabilir Alan",
-                "21.661 m²"
+                "21.660 m²"
             ],
             [
                 "Mağaza Sayısı",
